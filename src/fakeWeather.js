@@ -2,41 +2,43 @@ const fakeWeather = [
   {
     id: "01",
     imgURL:
-      "http://www.moma.org/media/W1siZiIsIjI2NDkyOSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=22709bd7beab1182",
-    day: "Fri",
+      "https://rawcdn.githack.com/alextaves/w/f85b9ddb1c986149eb639baa0f6ca2cbb11a57f9/src/weather icons/flash.png",
+    day: "fri",
     highTemp: 77,
     lowTemp: 65
   },
   {
     id: "02",
     imgURL:
-      "http://www.moma.org/media/W1siZiIsIjI2NDkyOSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=22709bd7beab1182",
-    day: "Sat",
-    highTemp: 78,
+      "https://rawcdn.githack.com/alextaves/w/f85b9ddb1c986149eb639baa0f6ca2cbb11a57f9/src/weather icons/rain.png",
+    day: "sat",
+    highTemp: 82,
     lowTemp: 68
   },
   {
     id: "03",
     imgURL:
-      "http://www.moma.org/media/W1siZiIsIjI2NDkyOSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=22709bd7beab1182",
-    day: "Sun",
-    highTemp: 77,
+      "https://rawcdn.githack.com/alextaves/w/f85b9ddb1c986149eb639baa0f6ca2cbb11a57f9/src/weather icons/sun.png",
+    day: "sun",
+    highTemp: 87,
     lowTemp: 62
   },
   {
     id: "04",
     imgURL:
-      "http://www.moma.org/media/W1siZiIsIjI2NDkyOSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=22709bd7beab1182",
-    day: "Mon",
+      "https://rawcdn.githack.com/alextaves/w/f85b9ddb1c986149eb639baa0f6ca2cbb11a57f9/src/weather icons/flash.png",
+    day: "mon",
     highTemp: 71,
     lowTemp: 63
   },
   {
     id: "05",
     imgURL:
-      "http://www.moma.org/media/W1siZiIsIjI2NDkyOSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=22709bd7beab1182",
-    day: "Tue",
+      "https://rawcdn.githack.com/alextaves/w/f85b9ddb1c986149eb639baa0f6ca2cbb11a57f9/src/weather icons/sun copy.png",
+    day: "tue",
     highTemp: 70,
     lowTemp: 60
   }
 ];
+
+export default fakeWeather;

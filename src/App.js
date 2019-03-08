@@ -1,23 +1,11 @@
 import React from "react";
-import Header from "./Header";
 import Weather from "./Weather";
-import Footer from "./Footer";
-import fakeWeather from "./fakeWeather";
+import weatherInfo from "./fakeWeather";
 
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div>
-        <Header />
-        <Weather />
-      </div>
-    );
-  }
-}
-
+const App = () => {
+  const theWeather = weatherInfo.map(temp => (
+    <Weather weather={temp} />
+  ));
+  return <div className="fivedaysRow">{theWeather}</div>;
+};
 export default App;
