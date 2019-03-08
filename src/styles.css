@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.fivedaysRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day {
+  flex: 20%;
+  margin: 5px;
+  padding: 5px;
+}
+
+img {
+  width: 60px;
+}
+
+.daygrouping {
+  padding: 5px;
+  text-align: center;
+  background-color: lightblue;
+  min-width: 75px;
+  max-width: 75px;
+}
+
+/* .fivedaysRow::after{
+  content: "";
+  clear: both;
+  display: table;
+} */
