@@ -10,6 +10,8 @@
   flex: 20%;
   margin: 5px;
   padding: 5px;
+  min-width: 100px;
+  
 }
 
 img {
@@ -20,8 +22,7 @@ img {
   padding: 5px;
   text-align: center;
   background-color: lightblue;
-  min-width: 75px;
-  max-width: 75px;
+  
 }
 
 /* .fivedaysRow::after{
